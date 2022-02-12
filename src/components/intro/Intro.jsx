@@ -1,7 +1,7 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function Intro() {
   const textRef = useRef();
@@ -29,15 +29,11 @@ export default function Intro() {
             {/* <a href="https://github.com/abdulrcs"> */}
             <button className="icon">
                 <FaGithub size={25} color="#18d26e" />
-                <span style={{fontSize: "18px", color: "white", fontWeight: "bold"}}>Github</span>
+                <span style={{fontSize: "15px", color: "white", fontWeight: "bold"}}>Github</span>
             </button>
             <button className="icon">
                 <FaLinkedin size={25} color="#18d26e" />
-                <span style={{fontSize: "18px", color: "white", fontWeight: "bold"}}>LinkedIn</span>
-            </button>
-            <button className="icon">
-                <FaEnvelope size={20} color="#18d26e" />
-                <span style={{fontSize: "18px", color: "white", fontWeight: "bold"}}>E-Mail</span>
+                <span style={{ fontSize: "15px", color: "white", fontWeight: "bold"}}>LinkedIn</span>
             </button>
             </div>
 

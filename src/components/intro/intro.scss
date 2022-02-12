@@ -35,13 +35,13 @@
         flex-direction: row;
         margin-left: 45px;
         margin: 50px;
+        width: 50%;
         gap: 10px;
         @include mobile{
           display: flex;
-          flex-direction: column;
-          gap: 20px;
+          width: 80%;
+          gap: 10px;
           align-items: center;
-          flex-shrink: 0;
           .text{
             font-size: 15px;
           }
@@ -58,11 +58,8 @@
           padding-right: 15px;
           border-radius: 7%;
           cursor: pointer;
-          
-          .text {
-            color: brown;
-            font-size: 30px;
-            
+          @include mobile{
+
           }
         }
       }
@@ -83,7 +80,7 @@
         margin-left: 45px;
 
         @include mobile{
-          font-size: 20px;
+          font-size: 15px;
         }
 
         span {
