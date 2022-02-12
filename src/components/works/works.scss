@@ -10,6 +10,9 @@
   position: relative;
   padding: 5em;
   margin-top: auto;
+  @include mobile {
+    padding: 1em;
+  }
 
   h2 {
     font-size: 14px;
@@ -38,12 +41,18 @@
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     color: #fff;
+    @include mobile {
+      font-size: 1rem;
+    }
   }
   h3 {
     font-weight: 700;
     font-size: 26px;
     color: rgb(65, 201, 255);
     font-family: "Raleway", sans-serif;
+    @include mobile {
+      font-size: 15px;
+    }
   }
   .para {
     padding: 1em;

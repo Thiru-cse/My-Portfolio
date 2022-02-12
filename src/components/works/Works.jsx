@@ -42,7 +42,7 @@ export default function Works() {
                     <li>
                       <i class="bi bi-chevron-right"></i>{" "}
                       <strong> <span>➤</span> Degree:</strong>{" "}
-                      <span>Diploma in Computer Engineering</span>
+                      <span>Computer Engineering</span>
                     </li>
                   </ul>
                 </div>
