@@ -26,13 +26,12 @@ export default function Intro() {
           </h3>
           <p>A self-taught developer with an interest in Computer Science.</p>
             <div className="container">
-            {/* <a href="https://github.com/abdulrcs"> */}
-            <button className="icon">
-                <FaGithub size={25} color="#18d26e" />
+            <button className="icon" onClick={() => window.open( 'https://github.com/Thiru-cse')}>
+                <FaGithub size={25} color="rgb(65, 201, 255)" />
                 <span style={{fontSize: "15px", color: "white", fontWeight: "bold"}}>Github</span>
             </button>
-            <button className="icon">
-                <FaLinkedin size={25} color="#18d26e" />
+            <button className="icon" onClick={() => window.open( 'https://www.linkedin.com/in/thiru-c-3085391a5/')}>
+                <FaLinkedin size={25} color="rgb(65, 201, 255)" />
                 <span style={{ fontSize: "15px", color: "white", fontWeight: "bold"}}>LinkedIn</span>
             </button>
             </div>

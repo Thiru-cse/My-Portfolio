@@ -51,22 +51,23 @@
           display: flex;
           align-items: center;
           gap: 5px;
-          background-color: #2b2b2b;
+          background-color: #242424;
           border: none;
           padding: 8px;
           padding-left: 15px;
           padding-right: 15px;
           border-radius: 7%;
           cursor: pointer;
-          @include mobile{
-
+          &:hover {
+              background-color: #141414;
+              transition: all 1s ease;
           }
         }
       }
       h2 {
         font-size: 35px;
         font-family: "Raleway",sans-serif;
-        color: #18d26e;
+        color: rgb(65, 201, 255);
         font-weight: 700;
         margin-left: 45px;
         @include mobile{
@@ -118,6 +119,7 @@
           opacity: 0;
         }
       }
+
     }
   
 }
