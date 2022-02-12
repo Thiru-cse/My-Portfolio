@@ -1,85 +1,60 @@
-import { useState } from "react";
 import "./works.scss";
 
 export default function Works() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const data = [
-    {
-      id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-    },
-    {
-      id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-    },
-    {
-      id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
-  ];
-
-  const handleClick = (way) => {
-    way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
-      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
-  };
-  
   return (
-    <div className="works" id="works">
-      <div
-        className="slider"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
-        {data.map((d) => (
-          <div className="container">
-            <div className="item">
-              <div className="left">
-                <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={d.icon} alt="" />
-                  </div>
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
-                  <span>Projects</span>
+    <>
+    <div id="about">
+      <section id="about" class="about">
+        <div className="about-me container">
+          <div className="section-title">
+            <h2>Me?</h2>
+            <p className="section-title">Let's get to know me</p>
+          </div>
+
+          <div class="row">
+            <div className="content" data-aos="fade-left">
+              <h3>FullStack Web Developer / MERN Stack</h3>
+              <p className="para">
+              I am a fresher in the corporate culture, but ready to accept the challenges, utilizing my skills, would like to work with a highly esteemed company which gives me a platform to use my expertise and skills for mutual growth and benefit of company and myself.
+              </p>
+              <div className="row">
+                <div className="col-lg-6">
+                  <ul>
+                    <li>
+                      <i className="bi-chevron-right"></i>{" "}
+                      <strong> <span>➤</span> Birthday:</strong> <span>07 Jun 1999</span>
+                    </li>
+                    <li>
+                      <i class="bi-chevron-right"></i>{" "}
+                      <strong> <span>➤</span> Phone:</strong>{" "}
+                      <span>
+                        <a href="tel:+917506021898">+91 8056352201</a>
+                      </span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i> <strong> <span>➤</span>   City:</strong>{" "}
+                      <span>Madurai, India</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>{" "}
+                      <strong> <span>➤</span> Degree:</strong>{" "}
+                      <span>Diploma in Computer Engineering</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div className="right">
-                <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
-                  alt=""
-                />
-              </div>
+              <p className="para">
+              I Started off my self-learning journey with online tutorials Google, YouTube, Learnmall, SoloLearn, etc and take a step further and Enrolled in the GUVI IIT MADRAS Fullstack developer Nanodegree Program which involved extensive programming and real world projects. Later, I learned MERN Stack From Guvi and built an Website using React JS, Node, Express Js, MongoDB.
+              </p>
             </div>
           </div>
-        ))}
-      </div>
-      <img
-        src="assets/arrow.png"
-        className="arrow left"
-        alt=""
-        onClick={() => handleClick("left")}
-      />
-      <img
-        src="assets/arrow.png"
-        className="arrow right"
-        alt=""
-        onClick={() => handleClick()}
-      />
+        </div>
+      </section>
     </div>
+      </>
   );
 }
