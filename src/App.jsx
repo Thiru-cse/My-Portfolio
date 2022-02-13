@@ -4,7 +4,6 @@ import { useState } from "react";
 import Menu from "./components/menu/Menu";
 import Intro from "./components/intro/Intro";
 import Works from "./components/works/Works";
-import Portfolio from "./components/portfolio/Portfolio"
 import Testimonials from "./components/testimonials/Testimonials"
 import Contact from "./components/contact/Contact"
 
@@ -18,7 +17,6 @@ function App() {
        <Intro/>
        <Works/>
        <Testimonials/>
-       <Portfolio/>
        <Contact/>
        </div>
      </div>

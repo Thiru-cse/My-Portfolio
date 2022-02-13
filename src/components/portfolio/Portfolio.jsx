@@ -58,7 +58,7 @@ export default function Portfolio() {
   }, [selected]);
 
   return (
-    <div className="portfolio" id="project">
+    <div className="portfolio" id="contact">
       <h1>Project</h1>
       <ul>
         {list.map((item) => (

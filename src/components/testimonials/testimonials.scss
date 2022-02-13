@@ -1,112 +1,148 @@
 @import "../../global.scss";
 
+.section-title {
+  margin: -5px 0 15px 0;
+  font-size: 2.5rem;
+  overflow: hidden;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  @include mobile {
+    font-size: 1rem;
+  }
+}
+.project {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3em;
+  margin: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaa;
+  font-family: "Poppins", sans-serif;
+  &::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: rgb(65, 201, 255);
+    margin: 4px 10px;
+  }
+  @include mobile {
+    font-size: 15px;
+    margin: 0;
+    padding: 12px;
+  }
+}
+
 .testimonials {
   background-color: black;
   display: flex;
-  padding: 3em;
+  padding: 1em;
   flex-wrap: wrap;
-  margin: 1rem;
-  flex-direction: row;
 
-  .head {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0;
-    margin: 0 0 20px 0;
-    letter-spacing: 2px;
+  .section-title {
+    font-size: 2.5rem;
+    overflow: hidden;
+    font-weight: 700;
     text-transform: uppercase;
-    color: #aaa;
     font-family: "Poppins", sans-serif;
-    &::after {
-      content: "";
-      width: 120px;
-      height: 1px;
-      display: inline-block;
-      background: rgb(65, 201, 255);
-      margin: 4px 10px;
+    color: #fff;
+    @include mobile {
+      font-size: 1rem;
     }
   }
-
-    .card {
-      width: 450px;
-      height: 350px;
-      background-color: #aaa;
-      border-radius: 10px;
-      border: 0.5px solid rgb(44, 44, 44);
-      overflow: hidden;
-      flex-wrap: wrap;
-      display: flex;
-
-      .info {
-        display: flex;
-        width: max-content;
-        align-self: flex-end;
-        height: min-content;
-        padding: 1em;
-        flex-direction: column;
-        background-color: black;
-        overflow: hidden;
-
-        h2 {
-          display: flex;
-          flex-direction: column;
-          color: white;
-          font-size: 1.5rem;
-          margin-top: auto;
-          
-      @include mobile {
-        font-size: 0.5rem;
-      }
-        }
-        p{
-          display: flex;
-          color: white;
-          flex-wrap: wrap;
-          overflow: hidden;
-          font-size: 1rem;
-          
-      @include mobile {
-        font-size: 0.5rem;
-      }
-        }
-        
-        .logo {
-          display: flex;
-          flex-direction: row;
-          overflow: hidden;
-          flex-wrap: wrap;
-        }
-        .logy {
-          display: flex;
-          margin-left: auto;
-          color: aqua;
-          gap: 10px;
-          overflow: hidden;
-          flex-wrap: wrap;
-        }
-      }
-
-      .side {
-        display: flex;
-        overflow: hidden;
-        flex-wrap: wrap;
-        gap: 10px;
-        flex-direction: row;
-        color: white;
-        
-        .ins {
-          display: flex;
-          background-color: rgb(77, 76, 76);
-          overflow: hidden;
-          flex-wrap: wrap;
-          border-radius: 7px;
-          gap: 5px;
-          padding: 0.2em;
-          font-size: 1rem;
-          align-items: center;
-
-        }
-      }
+  h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(65, 201, 255);
+    font-family: "Raleway", sans-serif;
+    @include mobile {
+      font-size: 15px;
     }
+  }
   
+  .container {
+    overflow: hidden;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    border-radius: 1rem;
+    width: 550px;
+    height: 330px;
+    margin: 2rem;
+  }
+  
+  .banner-img {
+    background-image: url(https://img.freepik.com/free-vector/online-shopping-banner-mobile-app-templates-concept-flat-design_1150-34865.jpg?w=740);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(65, 201, 255);
+  }
+
+  .btn-cont{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
+    
+  .btn {
+    border: none;
+    font-size: .9rem;
+    justify-content: center;
+    align-items: center;
+    padding: .1em;
+    margin: .5em;
+    padding: .2em;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(34, 34, 34);
+  }
 }
+
+  .description {
+    font-size: 1rem;
+    padding: .1em;
+    margin: .2rem;
+    color: #fff;
+    @include mobile {
+      font-size: 0.5rem;
+    } 
+  }
+  .banner-img1 {
+    background-image: url(https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-img2 {
+    background-image: url(https://img.freepik.com/free-vector/blog-main-page-template_53876-88255.jpg?w=740);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-img3 {
+    background-image: url(https://img.freepik.com/free-psd/youtube-video-player-mockup-3d-style_204659-77.jpg?w=740);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
