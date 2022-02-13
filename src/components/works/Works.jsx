@@ -56,6 +56,14 @@ export default function Works() {
                       </li>
                       <li>
                         <strong>
+                          <span style={{ color: "#18d26e" }}>➤ </span> Degree :
+                        </strong>
+                        <span>
+                            Engineering
+                        </span>
+                      </li>
+                      <li>
+                        <strong>
                           <span style={{ color: "#18d26e" }}>➤ </span>Nationality :
                         </strong>
                         <span>Indian</span>
@@ -100,7 +108,7 @@ export default function Works() {
                   style={{ backgroundColor: "rgb(12, 58, 128)", gap: "3px" }}
                 >
                   CSS
-                  <SiCss3 color="white" size={30} />
+                  <SiCss3 color="white" size={25} />
                 </div>
                 <div
                   className="skill-cintainer"
