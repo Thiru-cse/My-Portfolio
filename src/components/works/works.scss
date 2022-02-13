@@ -63,7 +63,30 @@
     font-weight: 400;
     line-height: 1.5;
     word-spacing: 2px;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    @include mobile {
+      font-size: 0.7rem;
+    }
+  }
+
+  ul {
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    li{
+      display: flex;
+      padding: 1em;
+      font-size: 1rem;
+      gap: 10px;
+      margin: 1rem;
+      @include mobile {
+        font-size: 0.7rem;
+        margin: 0.2rem;
+        padding: 0.3em;
+      }
+    }
   }
 
   .skill {
@@ -76,8 +99,8 @@
   .skill-cintainer{
     display: flex;
     width: 10rem;
-    font-size: 1.5rem;
-    margin: 1rem;
+    font-size: 1rem;
+    margin: 0.5rem;
     align-items: center;
     align-self: center;
     align-content: center;
@@ -86,6 +109,11 @@
     background-color: rgb(53, 49, 49);
     overflow: hidden;
     border-radius: 10px;
+    @include mobile {
+      width: 7rem;
+      font-size: 0.7rem;
+      height: 40px;
+    }
   }
 }
 
