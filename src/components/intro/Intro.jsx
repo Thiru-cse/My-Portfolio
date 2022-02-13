@@ -26,7 +26,7 @@ export default function Intro() {
             I am a <span ref={textRef}></span><br></br>
           </h3>
           <p>A self-taught developer with an interest in Computer Science.</p>
-            <button style={{ backgroundColor: "#0e0e0e", border: "none", color: "rgb(255, 65, 170)", margin: "3rem", padding: "8px", justifyContent: "center", alignItems: "center", alignContent: "center", display: "flex", gap: "5px", borderRadius: "7px", cursor: "pointer", fontWeight: 700 }}>View My CV. <IoMdOpen size={22} color="rgb(65, 201, 255)"/></button>
+            <button style={{ backgroundColor: "#0e0e0e", border: "none", color: "rgb(255, 145, 213)", margin: "3rem", padding: "8px", justifyContent: "center", alignItems: "center", alignContent: "center", display: "flex", gap: "5px", borderRadius: "7px", cursor: "pointer", fontWeight: 700 }}>View My CV. <IoMdOpen size={22} color="rgb(65, 201, 255)"/></button>
           
             <div className="container">
             <button className="icon" onClick={() => window.open( 'https://github.com/Thiru-cse')}>
