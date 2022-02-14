@@ -147,7 +147,7 @@ export default function Works() {
                 </div>
                 <div
                   className="skill-cintainer"
-                  style={{ backgroundColor: "rgb(90, 219, 64)", gap: "3px" }}
+                  style={{ backgroundColor: "rgb(48, 131, 32)", gap: "3px" }}
                 >
                   Mongodb
                   <SiMongodb color="#103d0e" size={30} />

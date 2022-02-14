@@ -13,10 +13,10 @@ export default function Testimonials() {
           </div>
           <h1 class="name" style={{ color: "crimson" }}>Netflix Clone</h1>
           <div className="btn-cont">
-          <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse')}>Github  <IoLogoGithub /></button>
-          <button class="btn">View Site  <IoMdOpen/></button>
+          <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse/Netflix-Backend')}>Github  <IoLogoGithub /></button>
+          <button class="btn" onClick={() => window.open( 'https://netflix-thiru.vercel.app/register')}>View Site  <IoMdOpen/></button>
           </div>
-          <p class="description">This is Fullstack MERN website made it as a Ecommerce.<br></br>This application is used to sell our products.</p>
+          <p class="description">This is Fullstack MERN website made it as a Netflix.<br></br>This application is used to watch Movies and Series.</p>
         </div>
         <div class="container">
           <div class="banner-img2">
@@ -24,9 +24,9 @@ export default function Testimonials() {
           <h1 class="name" style={{ color: "rgb(136, 255, 181)" }}>Blog Website</h1>
           <div className="btn-cont">
           <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse')}>Github  <IoLogoGithub /></button>
-          <button class="btn">View Site  <IoMdOpen/></button>
+          <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse')}>View Site  <IoMdOpen/></button>
           </div>
-          <p class="description">This is Fullstack MERN website made it as a Ecommerce.<br></br>This application is used to sell our products.</p>
+          <p class="description">This is Fullstack MERN website made it as a Blog.<br></br>This application is used to read and post your thoughts.</p>
         </div>
         <div class="container">
           <div class="banner-img">
@@ -34,9 +34,9 @@ export default function Testimonials() {
           <h1 class="name" style={{ color: "rgb(65, 201, 255)" }}>E-Commerce</h1>
           <div className="btn-cont">
           <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse')}>Github  <IoLogoGithub /></button>
-          <button class="btn">View Site  <IoMdOpen/></button>
+          <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse')}>View Site  <IoMdOpen/></button>
           </div>
-          <p class="description">This is Fullstack MERN website made it as a Ecommerce.<br></br>This application is used to sell our products.</p>
+          <p class="description">This is Fullstack MERN website made it as a Ecommerce.<br></br>This application is used to buy our products.</p>
         </div>
         <div class="container">
           <div class="banner-img3">
@@ -44,9 +44,19 @@ export default function Testimonials() {
           <h1 class="name" style={{ color: "rgb(255, 65, 65)" }}>YouTube Clone</h1>
           <div className="btn-cont">
           <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse')}>Github  <IoLogoGithub /></button>
-          <button class="btn">View Site  <IoMdOpen/></button>
+          <button class="btn" onClick={() => window.open( 'https://thiru-youtube-clone.vercel.app/')}>View Site  <IoMdOpen/></button>
           </div>
-          <p class="description">This is Fullstack MERN website made it as a Ecommerce.<br></br>This application is used to sell our products.</p>
+          <p class="description">This is website made it as a Youtube.<br></br>This application is used to watch videos.</p>
+        </div>
+        <div class="container">
+          <div class="banner-img4">
+          </div>
+          <h1 class="name" style={{ color: "rgb(218, 181, 181)" }}>Weather Tracker</h1>
+          <div className="btn-cont">
+          <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse/Weather-Site-using-API')}>Github  <IoLogoGithub /></button>
+          <button class="btn" onClick={() => window.open( 'https://weather-site-using-api.vercel.app/')}>View Site  <IoMdOpen/></button>
+          </div>
+          <p class="description">This is website made it as a Weather Tracker.<br></br>This application is used to know your Current Location Weather.</p>
         </div>
 
       </div>
