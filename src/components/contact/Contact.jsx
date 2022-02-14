@@ -9,7 +9,7 @@ export default function Contact() {
     <>
     <div id="about">
         <section id="about" class="about">
-          <div className="contact">
+          <div className="contact" id="contact">
             <div className="section-titles">
               <h2 className="cont">Reach Out To Me</h2>
               <p className="sec-title">Contact</p>
