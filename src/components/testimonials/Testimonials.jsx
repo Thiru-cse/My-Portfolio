@@ -29,6 +29,16 @@ export default function Testimonials() {
           <p class="description">This is Fullstack MERN website made it as a Ecommerce.<br></br>This application is used to buy our products.</p>
         </div>
         <div class="container">
+          <div class="banner-img5">
+          </div>
+          <h1 class="name" style={{ color: "rgb(44, 73, 167)" }}>Social Media</h1>
+          <div className="btn-cont">
+          <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse/Social-Media-Frontend')}>Github  <IoLogoGithub /></button>
+          <button class="btn" onClick={() => window.open( 'https://social-media-thiru.vercel.app/')}>View Site  <IoMdOpen/></button>
+          </div>
+          <p class="description">This is Fullstack MERN website made it as a Facebook.<br></br>This application is used to Post your thoughts.</p>
+        </div>
+        <div class="container">
           <div class="banner-img3">
           </div>
           <h1 class="name" style={{ color: "rgb(255, 65, 65)" }}>YouTube Clone</h1>
