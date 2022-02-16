@@ -36,7 +36,7 @@ export default function Testimonials() {
           <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse')}>Github  <IoLogoGithub /></button>
           <button class="btn" onClick={() => window.open( 'https://vchat-thiru.vercel.app/')}>View Site  <IoMdOpen/></button>
           </div>
-          <p class="description">This is Fullstack MERN website made it as a V-Chat.<br></br>This application is used to connect and video call with your friends.</p>
+          <p class="description">This is Fullstack MERN website made it as a V-Chat.<br></br>This application is used to connect a Video call with your friends.</p>
         </div>
         <div class="container">
           <div class="banner-img5">
