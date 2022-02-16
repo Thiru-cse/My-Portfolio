@@ -29,12 +29,12 @@ export default function Testimonials() {
           <p class="description">This is Fullstack MERN website made it as a Ecommerce.<br></br>This application is used to buy our products.</p>
         </div>
         <div class="container">
-          <div class="banner-img">
+          <div class="banner-img6">
           </div>
-          <h1 class="name" style={{ color: "rgb(48, 60, 65)" }}>V-Chat</h1>
+          <h1 class="name" style={{ color: "rgb(94, 34, 34)" }}>V-Chat</h1>
           <div className="btn-cont">
           <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse')}>Github  <IoLogoGithub /></button>
-          <button class="btn" onClick={() => window.open( 'https://shopy-thiru.vercel.app/register')}>View Site  <IoMdOpen/></button>
+          <button class="btn" onClick={() => window.open( 'https://vchat-thiru.vercel.app/')}>View Site  <IoMdOpen/></button>
           </div>
           <p class="description">This is Fullstack MERN website made it as a V-Chat.<br></br>This application is used to connect and video call with your friends.</p>
         </div>
