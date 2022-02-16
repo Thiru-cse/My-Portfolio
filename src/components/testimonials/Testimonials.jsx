@@ -31,7 +31,7 @@ export default function Testimonials() {
         <div class="container">
           <div class="banner-img">
           </div>
-          <h1 class="name" style={{ color: "rgb(65, 201, 255)" }}>V-Chat</h1>
+          <h1 class="name" style={{ color: "rgb(48, 60, 65)" }}>V-Chat</h1>
           <div className="btn-cont">
           <button class="btn" onClick={() => window.open( 'https://github.com/Thiru-cse')}>Github  <IoLogoGithub /></button>
           <button class="btn" onClick={() => window.open( 'https://shopy-thiru.vercel.app/register')}>View Site  <IoMdOpen/></button>
