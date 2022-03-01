@@ -25,7 +25,7 @@ export default function Works() {
             <div class="row">
                 <h3>FullStack Web Developer / MERN Stack</h3>
                 <p className="para">
-                  I am a fresher in the corporate culture, but ready to accept
+                  I seek to work in a competitive field and ready to accept
                   the challenges, utilizing my skills, would like to work with a
                   highly esteemed company which gives me a platform to use my
                   expertise and skills for mutual growth and benefit of company
