@@ -17,7 +17,7 @@ export default function Testimonials() {
             <button
               class="btn"
               onClick={() =>
-                window.open("https://github.com/Thiru-cse/Netflix-Backend")
+                window.open("https://github.com/Thiru-cse/Netflix-Frontend")
               }
             >
               Github FE <IoLogoGithub />
