@@ -267,8 +267,7 @@ export default function Testimonials() {
               style={{
                 color: "rgb(65, 201, 255)",
                 fontWeight: "500",
-                fontSize: "0.9rem",
-                textDecoration: "underline",
+                fontSize: "0.8rem"
               }}
             >
               TECH USED :
@@ -277,7 +276,7 @@ export default function Testimonials() {
               style={{
                 color: "#d18d0d",
                 fontWeight: "bold",
-                fontSize: "0.9rem",
+                fontSize: "0.8rem",
               }}
             >
               HTML, CSS, JAVASCRIPT
@@ -319,8 +318,7 @@ export default function Testimonials() {
               style={{
                 color: "rgb(65, 201, 255)",
                 fontWeight: "500",
-                fontSize: "0.9rem",
-                textDecoration: "underline",
+                fontSize: "0.8rem"
               }}
             >
               TECH USED :
@@ -329,7 +327,7 @@ export default function Testimonials() {
               style={{
                 color: "#d18d0d",
                 fontWeight: "bold",
-                fontSize: "0.9rem",
+                fontSize: "0.8rem",
               }}
             >
               HTML, CSS, JAVASCRIPT
