@@ -155,7 +155,7 @@ export default function Testimonials() {
             </button>
           </div>
           <p class="description">
-            This is Fullstack MERN website made it as a Facebook.<br></br>This
+            This is Fullstack MERN website made it as a Blog.<br></br>This
             application is used to Post your thoughts.
           </p>
           <p>
